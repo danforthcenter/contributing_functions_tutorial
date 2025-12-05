@@ -1,0 +1,21 @@
+site_name: LittleCV
+site_url: https://littlecv.readthedocs.io/
+site_description: Learn to contribute to PlantCV
+site_author: PlantCV Development Team
+repo_url: https://github.com/danforthcenter/contributing_functions_tutorial
+copyright: Copyright 2025, Donald Danforth Plant Science Center
+theme: readthedocs
+
+nav:
+- Home: index.md
+- Documentation:
+  - 'Read an Image': readimage.md
+  - 'Plot an Image': plot_image.md
+  - 'RGB to Grayscale': rgb2gray_lab.md
+  - 'Binary Thresholding': binary.md
+  - 'Fill Holes': fill.md
+  - 'Shape Analysis': analyze_size.md
+markdown_extensions:
+  - toc:
+      permalink: True
+  - admonition
