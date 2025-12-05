@@ -40,17 +40,16 @@ The function that you are adding should crop an image using a top left coordinat
 * 8: Push your changes to github (`git push origin main`). This syncs the changes you've committed to github so that other people could pull them and use them locally.
 * 9: Open a Pull Request. These are a feature of Github, not of Git itself, so we'll have to do this online or through a software like Github Desktop. Go to `https://github.com/danforthcenter/contributing_functions_tutorial/tree/YOUR_BRANCH_NAME` or to [`https://github.com/danforthcenter/contributing_functions_tutorial`](https://github.com/danforthcenter/contributing_functions_tutorial) and use the branch dropdown menu to select your branch. On your branch there should be a green `Compare and pull request` button, click that and fill out the template. There is a sidebar of options for labels, assignees, reviewers, etc. In `PlantCV` you'll; use those to describe the purpose of your PR at a very high level, mark it for a certain version milestone or request certain reviewers based on who has domain expertise or last edited those files. Once you are done with the description click `create pull request`. Once the pull request is created the automated checks will run, if those pass then you are done. You might see deepsource problems that do not show up on your local tests since deepsource is more particular about code style, etc.
 
-
 ### The Functions
 
 `littlecv` only has 6 exposed functions, they are:
 
-* `readimage`: Reads an image into a numpy.ndarray. Simplified from `plantcv.plantcv.read_image`
-* `rgb2gray_lab`: Converts an RGB image to grayscale with either L, A, or B channel. Simplified from `plantcv.plantcv.rgb2gray_lab`.
-* `binary`: Applies a binary threshold. Simplified from `plantcv.plantcv.threshold.binary`.
-* `fill`: Filters small objects. Simplified from `plantcv.plantcv.fill`.
-* `size`: Calculates single value phenotypes given a mask and image. Simplified from `plantcv.analyze.size`
-* `plot_image`: Plots an image. Simplified from `plantcv.plantcv.plot_image`.
+* [`readimage`](readimage.md): Reads an image into a numpy.ndarray. Simplified from `plantcv.plantcv.read_image`
+* [`rgb2gray_lab`](rgb2gray_lab.md): Converts an RGB image to grayscale with either L, A, or B channel. Simplified from `plantcv.plantcv.rgb2gray_lab`.
+* [`binary`](binary.md): Applies a binary threshold. Simplified from `plantcv.plantcv.threshold.binary`.
+* [`fill`](fill.md): Filters small objects. Simplified from `plantcv.plantcv.fill`.
+* [`size`](analyze_size.md): Calculates single value phenotypes given a mask and image. Simplified from `plantcv.analyze.size`
+* [`plot_image`](plot_image.md): Plots an image. Simplified from `plantcv.plantcv.plot_image`.
 
 There is also a minimal `Outputs` class called by `size` to store results which is based on the `plantcv.plantcv.Outputs` class.
 
