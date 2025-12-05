@@ -1,6 +1,6 @@
 # Contributing New Functions to PlantCV
 
-This repository is a place for you to learn to contribute to PlantCV in one of our guided new contributor workshops. For full documentation or asynchronous learning about contributing to PlantCV please see the [contribution docs](http://plantcv.readthedocs.io/en/latest/CONTRIBUTING/).
+This repository is a place for you to learn to contribute to PlantCV in one of our guided new contributor workshops. For full documentation or asynchronous learning about contributing to PlantCV please see the [contribution docs](http://plantcv.readthedocs.io/en/latest/CONTRIBUTING/), for an online version of the [littlecv docs see the datascience website](https://datasci.danforthcenter.org/littlecv/).
 
 ## Getting started
 
