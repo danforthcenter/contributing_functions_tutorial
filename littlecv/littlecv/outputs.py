@@ -7,7 +7,7 @@ class Outputs:
         self.observations = {}
         self.metadata = {}
 
-     # Method to add observation to outputs
+    # Method to add observation to outputs
     def add_observation(self, sample, variable, trait, method, scale, datatype, value, label):
         """Keyword arguments/parameters:
         sample       = Sample name. Used to distinguish between multiple samples

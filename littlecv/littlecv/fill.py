@@ -1,7 +1,6 @@
 # Object fill device
 
 import numpy as np
-import numpy as np
 from littlecv.littlecv.plot_image import plot_image
 from skimage.morphology import remove_small_objects
 
